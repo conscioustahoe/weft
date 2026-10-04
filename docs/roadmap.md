@@ -4,7 +4,7 @@ Each milestone builds on the one before it. Each one ends with a note in [notes/
 
 ## Milestone 0 is a spike
 
-No platform yet. The point is to find where the hard parts are before designing anything.
+No platform yet. The point is to find where the hard parts are before designing anything. The code lives in experiments/.
 
 - On the Mac I load Qwen3.5-0.8B with PEFT. I write a plain PyTorch loop where forward_backward and optim_step are two separate functions. Then I train on a few hundred toy BAI2 rows.
 - I save the full state and kill the process. Full state means the adapter, optimizer, step, data position and RNG. Then I resume and check that the loss picks up exactly where it left off.

@@ -61,7 +61,7 @@ Folders get added as each milestone needs them. This is where things will go.
 
 ```
 docs/           design, decisions, roadmap, resources, notes
-spike/          milestone 0 scripts, meant to be thrown away
+experiments/    small standalone experiments, one folder each
 weft/           the Python package
   client/         client SDK
   api/            control plane HTTP API

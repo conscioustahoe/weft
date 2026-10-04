@@ -1,0 +1,28 @@
+# Private working notes
+CLAUDE.md
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Environment
+.env
+.env.*
+
+# Training artifacts
+checkpoints/
+runs/
+wandb/
+*.safetensors
+*.pt
+
+# OS and editors
+.DS_Store
+.vscode/
+.idea/
